@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.input-section input,
+.input-section button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-section input#city {
+    border: 2px solid red;
+}
+
+.input-section input#date-input {
+    border: 2px solid green;
+}
+
+.input-section button#add-destination {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid blue;
+}
+
+.input-section button#generate-trip-info {
+    background-color: #9ACD32;
+    color: white;
+    border: 1px solid limegreen;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.trip-list {
+    flex: 1;
+    border: 2px solid yellow;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.trip-info {
+    flex: 1;
+    border: 2px solid pink;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.trip-list .destination-item {
+    margin-bottom: 10px;
+}
+
+.trip-info img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
