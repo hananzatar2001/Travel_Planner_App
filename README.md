@@ -7,10 +7,10 @@ This app allows users to generate detailed trip information including city detai
 - Frontend: HTML, CSS, JavaScript
 - Build Tool: Webpack
 - APIs Used:
-1-GeoNames API: For city information. GeoNames API Documentation
-2-Weatherbit API: For current weather data. Weatherbit API Documentation
-3-Pixabay API: For city images. Pixabay API Documentation
-4-RestCountries API: For country information. RestCountries API Documentation
+1- GeoNames API: For city information. GeoNames API Documentation
+2- Weatherbit API: For current weather data. Weatherbit API Documentation
+3- Pixabay API: For city images. Pixabay API Documentation
+4- RestCountries API: For country information. RestCountries API Documentation
 
 ## Installation
 - Clone the repository: (git clone https://github.com/hananzatar2001/Travel_Planner_App.git)
